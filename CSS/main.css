@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    background-color: rgb(194, 37, 37);
+}
+
+header img {
+    alt: 50px;
+    width: 50px;
+}
+
+body{
+    background-color: rgb(194, 37, 37);
+}
+
+&-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: calc(-100px - 5px);
+    background-color: white;
+}
